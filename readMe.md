@@ -40,3 +40,11 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(n^2 * log(n))$ 
 
+
+### Question 5 - Top K Frequent Elements
+
+- Create a frequency map and then convert it into a 2-D array
+- Sort the array with respect to frequency
+- return the top k elements
+
+Time Complexity - $O(n * log(n))$ 
