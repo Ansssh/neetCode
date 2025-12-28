@@ -1,5 +1,6 @@
 package arrays.question3;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 class Solution {
@@ -25,6 +26,6 @@ class Solution {
 public class TwoSum {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(x.twoSum(new int[]{1,3,3,7,9}, 10));
+        System.out.println(Arrays.toString(x.twoSum(new int[]{1,3,3,7,9}, 10)));
     }
 }

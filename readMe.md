@@ -22,4 +22,8 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(n * log(n))$ 
 
-
+### Question 3 - Two Sum - `int[], int -> int[]`
+---
+- store the number, along with their index in hashmap
+- iterate over the array, check if its complement exists in hashmap, if yes, return the current and stored index else iterate
+- given that solution is garunteed
