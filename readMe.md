@@ -13,3 +13,13 @@ The first topic of neetCode 150, containing 9 Questions -
 - Check for size
 
 Time Complexity - $O(n)$
+
+### Question 2 - Valid Anagram `String, String -> boolean`
+---
+- Both String to Array
+- Sort the Arrays
+- compare the arrays
+
+Time Complexity - $O(n * log(n))$ 
+
+
