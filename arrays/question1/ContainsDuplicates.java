@@ -1,4 +1,4 @@
-package arrays;
+package arrays.question1;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ class Solution {
     }
 }
 
-public class Q1_containsDuplicates {
+public class ContainsDuplicates {
     public static void main(String[] args) {
         Solution x = new Solution();
         System.out.println(x.hasDuplicate(new int[]{1,2,2,5}));

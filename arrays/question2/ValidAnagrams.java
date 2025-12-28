@@ -1,3 +1,4 @@
+package arrays.question2;
 import java.util.Arrays;
 
 class Solution {
@@ -18,7 +19,7 @@ class Solution {
     }
 }
 
-public class Q2_validAnagrams {
+public class ValidAnagrams {
     public static void main(String[] args) {
         Solution x = new Solution();
         System.out.println(x.isAnagram("racecar", "carrace"));
