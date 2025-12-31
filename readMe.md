@@ -48,3 +48,10 @@ Time Complexity - $O(n^2 * log(n))$
 - return the top k elements
 
 Time Complexity - $O(n * log(n))$ 
+
+### Question 6 - Encode and Decode Strings
+
+- Given a String Array, Encode it by joining it with a non-UTF-8 seperator
+- Similiarly, remove the delimeter to decode it
+
+Time Complexity - $O(n)$
