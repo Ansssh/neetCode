@@ -55,3 +55,15 @@ Time Complexity - $O(n * log(n))$
 - Similiarly, remove the delimeter to decode it
 
 Time Complexity - $O(n)$
+
+### Question 7 - Product Except Self
+
+- Given an array, Create two arrays of same size and store the prefix and suffix product of the numbers of array except self.
+- return the product of suffix and prefix
+
+#### Example - 
+nums = [2,3,4,5]
+prefix = [1,2,6,24] & suffix = [60,20,5,1]
+solution = [60, 40, 30, 24]
+
+Time Complexity - $O(n)$
