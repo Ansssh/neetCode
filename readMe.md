@@ -7,7 +7,6 @@ Hello People, My name is Ansh. I'm on my venture to complete neetCode in a month
 The first topic of neetCode 150, containing 9 Questions - 
 
 ### Question 1 - Contains Duplicates `int[] -> boolean`
----
 
 - Convert to Set
 - Check for size
@@ -15,7 +14,6 @@ The first topic of neetCode 150, containing 9 Questions -
 Time Complexity - $O(n)$
 
 ### Question 2 - Valid Anagram `String, String -> boolean`
----
 - Both String to Array
 - Sort the Arrays
 - compare the arrays
@@ -23,7 +21,6 @@ Time Complexity - $O(n)$
 Time Complexity - $O(n * log(n))$ 
 
 ### Question 3 - Two Sum - `int[], int -> int[]`
----
 - store the number, along with their index in hashmap
 - iterate over the array, check if its complement exists in hashmap, if yes, return the current and stored index else iterate
 - given that solution is garunteed
@@ -75,4 +72,22 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(n^2)$
 
+### Question 9 - largest consecutive
 
+- Given an int array, find the longest sequence that can be created, 
+- use set for $O(1)$ lookups
+- for each element in array, check if the next sequence exists in the set by maintaining a local variable.
+
+Time Complexity - $O(n^2)$
+
+
+> Arrays & Hashing Complete!! 
+
+## Two Pointers
+
+### Question 1 - is palindrome
+
+- Given a String check if it is a palindrome, 
+- Use two pointers approach
+
+Time Complexity - $O(n)$
