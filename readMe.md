@@ -105,3 +105,11 @@ Time Complexity - $O(n)$
 - for every element in array, calculate two sum with the target $(0-element)$
 
 Time Complexity - $O(n^2)$
+
+### Qustion 4 - Max Area
+
+- Given an array of heights, find the max area.
+- using while loop, mutiply the length with height and width and keep track of maximum.
+
+Time Complexity - $O(n)$
+
