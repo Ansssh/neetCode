@@ -91,3 +91,9 @@ Time Complexity - $O(n^2)$
 - Use two pointers approach
 
 Time Complexity - $O(n)$
+
+### Question 2 - Two Sum 
+
+- Given an array and target, find two numbers such that their sum == target, return their indexes
+
+Time Complexity - $O(n)$

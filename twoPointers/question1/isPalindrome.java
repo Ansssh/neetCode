@@ -18,7 +18,7 @@ class Solution {
 }
 
 
-public class isPalindrome {
+public class IsPalindrome {
     public static void main(String[] args) {
         Solution x = new Solution();
         System.out.println(x.isPalindrome("racecar"));
