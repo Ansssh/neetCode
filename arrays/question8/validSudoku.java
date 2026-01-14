@@ -62,7 +62,7 @@ class Solution {
 }
 
 
-public class validSudoku {
+public class ValidSudoku {
     public static void main(String[] args) {
         Solution x = new Solution();
         char[][] sudoku = {
