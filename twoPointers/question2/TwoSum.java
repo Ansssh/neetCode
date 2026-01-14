@@ -14,7 +14,7 @@ class Solution {
                 return new int[]{idx1 + 1, idx2 + 1};
             }
         }
-        return new int[]{0,0};
+        return new int[]{0};
     }
 }
 

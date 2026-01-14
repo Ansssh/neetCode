@@ -97,3 +97,11 @@ Time Complexity - $O(n)$
 - Given an array and target, find two numbers such that their sum == target, return their indexes
 
 Time Complexity - $O(n)$
+
+### Question 3 - Three Sum
+
+- Given an array, find all triplets whose sum equals 0;
+- Combine for-loop with two sum, 
+- for every element in array, calculate two sum with the target $(0-element)$
+
+Time Complexity - $O(n^2)$
