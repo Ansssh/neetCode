@@ -67,3 +67,12 @@ prefix = [1,2,6,24] & suffix = [60,20,5,1]
 solution = [60, 40, 30, 24]
 
 Time Complexity - $O(n)$
+
+### Question 8 - valid Sudoku 
+
+- Given a 2-D character array containing '.' or numbers from '1' to '9',
+- Brute Force (Check Rows, Check Cols and Check Boxes)
+
+Time Complexity - $O(n^2)$
+
+
