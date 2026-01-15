@@ -120,3 +120,12 @@ Time Complexity - $O(n)$
 - for every position, calc the water contianed as $Math.Min(suffix[i] , prefix[i]) - height[i]$
 
 Time Complexity - $O(n)$
+
+> Two Pointers Complete
+
+## Stack 
+
+- Given a String of Parenthesis, check if it is valid or not
+- put every opening bracket in a stack and pop the top element if they correspond, otherwise return false;
+
+Time Complexity - $O(n)$
