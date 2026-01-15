@@ -113,3 +113,10 @@ Time Complexity - $O(n^2)$
 
 Time Complexity - $O(n)$
 
+### Question 5 - Trapping Rain Water
+
+- Given an array of heights, find the total water that can be contained in the area,
+- make two arrays, suffix & prefix where at index i, one can get the highest bounds from left and right
+- for every position, calc the water contianed as $Math.Min(suffix[i] , prefix[i]) - height[i]$
+
+Time Complexity - $O(n)$
