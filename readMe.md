@@ -137,3 +137,11 @@ Time Complexity - $O(n)$
 - Implement a custom stack where you can get the smallest element present in stack at any given time in O(1)
 - Create another stack which stores currentElement and currentMinimum, check the [logic](stack/question2/CreateMinStack.java#L5)
 
+Time Complexity - $O(1)$
+
+### Question 3 - Polish Notation
+
+- Given a String Array in postfix notation, evaluate.
+- push the numbers in stack, when encountered an operation, pop the latest values, operate on them and push it back.
+
+Time Complexity - $O(n)$
