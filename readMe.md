@@ -125,7 +125,15 @@ Time Complexity - $O(n)$
 
 ## Stack 
 
+### Question 1 - Valid Parenthesis
+
 - Given a String of Parenthesis, check if it is valid or not
 - put every opening bracket in a stack and pop the top element if they correspond, otherwise return false;
 
 Time Complexity - $O(n)$
+
+### Question 2 - Min Stack
+
+- Implement a custom stack where you can get the smallest element present in stack at any given time in O(1)
+- Create another stack which stores currentElement and currentMinimum, check the [logic](stack/question2/CreateMinStack.java#L5)
+
