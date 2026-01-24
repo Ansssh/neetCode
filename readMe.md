@@ -145,3 +145,10 @@ Time Complexity - $O(1)$
 - push the numbers in stack, when encountered an operation, pop the latest values, operate on them and push it back.
 
 Time Complexity - $O(n)$
+
+### Question 4 - Daily Temperatures
+
+- Given an array of daily temperatures, for each day, return the number of days after which warmer temp appears
+- Use stack to store that day index, then when a day with higher temperature comes, store the difference in solution array and pop the element
+
+Time Complexity - $O(n)$
