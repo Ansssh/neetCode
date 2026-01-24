@@ -152,3 +152,12 @@ Time Complexity - $O(n)$
 - Use stack to store that day index, then when a day with higher temperature comes, store the difference in solution array and pop the element
 
 Time Complexity - $O(n)$
+
+### Question 5 - Car Fleet
+
+- Count the number of fleets that multiple cars will make to reach destination
+- Calculate the time required to reach the destination by formula $time = distance / speed$
+- Add the count for each fleet based on the time it reaches the destination
+
+Time Complexity - $O(n)$
+
