@@ -161,3 +161,10 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(n)$
 
+### Question 6 - Largest Rectangle Area - I
+
+- Given a histogram, find the largest rectangle that can be made,
+- For every pair of heights, calculate the area and keep updating the max area
+
+Time Complexity - $O(n^2)$
+
