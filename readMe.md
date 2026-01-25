@@ -175,3 +175,12 @@ Time Complexity - $O(n^2)$
 - Maintain the maxArea throughout the iteration
 
 Time Complexity - $O(n)$
+
+## Sliding Window
+
+### Question 1 - Best Time to Buy & Sell Stock
+
+- Given an array of prices of stock, maximize the profit!
+- using dynamic sliding window, take the left element as buying point and right element as selling point, keep increasing the right element until it becomes smaller than the left element, shift the left to right element and right to next. Keep track of max Profit & return it
+
+Time Complexity - $O(n)$
