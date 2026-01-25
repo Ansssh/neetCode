@@ -168,3 +168,10 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(n^2)$
 
+### Question 6 - Largest Rectangle Area - II
+
+- Improved Approach, we need to calculate prefix & postfix for every bar,
+- In order to do that efficiently, we use a monotonic stack (Strictly Increasing Stack), for every bar, we check if the previous bar was smaller, if not we pop the bar, calculate the area by $$height * (right - left)$$ where $$right = i - 1$$ and $$left = previous\ index\ in\ stack$$
+- Maintain the maxArea throughout the iteration
+
+Time Complexity - $O(n)$

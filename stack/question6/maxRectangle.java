@@ -1,14 +1,19 @@
 package stack.question6;
 
+import java.util.Stack;
+
 class Solution {
     public int largestRectangleArea(int[] heights) {
+        Stack<Integer> x = new Stack<>();
         int maxArea = 0;
         for (int i = 0; i < heights.length; i++) {
-            int minHeight = heights[i];
-            for (int j = i; j < heights.length; j++) {
-                minHeight = Math.min(minHeight, heights[j]);
-                maxArea = Math.max(maxArea, minHeight * (j - i + 1));
+            while (!x.isEmpty() && heights[i] <= heights[x.peek()]) {
+                maxArea = Math.max(maxArea, heights[x.pop()]*(i - (x.isEmpty() ? -1: x.peek()) -1));
             }
+            x.push(i);
+        }
+        while (!x.isEmpty()) {
+            maxArea = Math.max(maxArea, heights[x.pop()]*(heights.length - (x.isEmpty() ? -1: x.peek()) -1));
         }
         return maxArea;
     }
@@ -18,6 +23,6 @@ class Solution {
 public class maxRectangle {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(x.largestRectangleArea(new int[]{7,1,7,2,2,4}));
+        System.out.println(x.largestRectangleArea(new int[]{2,1,5,6,2,3}));
     }
 }
