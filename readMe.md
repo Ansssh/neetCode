@@ -176,11 +176,20 @@ Time Complexity - $O(n^2)$
 
 Time Complexity - $O(n)$
 
+> Stack Completed!
+
 ## Sliding Window
 
 ### Question 1 - Best Time to Buy & Sell Stock
 
 - Given an array of prices of stock, maximize the profit!
 - using dynamic sliding window, take the left element as buying point and right element as selling point, keep increasing the right element until it becomes smaller than the left element, shift the left to right element and right to next. Keep track of max Profit & return it
+
+Time Complexity - $O(n)$
+
+### Question 2 - Longest Substring
+
+- Given a String, find the longest substring without repeating characters.
+- use a set to keep track of elements, if a repeating character is found, keep moving the window forward from left side and keep removing the elements, else expand the window to right.
 
 Time Complexity - $O(n)$
