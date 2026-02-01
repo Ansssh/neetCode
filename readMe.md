@@ -193,3 +193,12 @@ Time Complexity - $O(n)$
 - use a set to keep track of elements, if a repeating character is found, keep moving the window forward from left side and keep removing the elements, else expand the window to right.
 
 Time Complexity - $O(n)$
+
+### Question 3 - Longest Replacement
+
+- Given a String of Capital Letters, return the max length of substring of repeating characters, with a clause that we can replace any k characters with the character of our choice.
+
+- Sliding Window approach, we maintain a maxFrequency variable that keeps track of element that has the maximum frequency in current/previous windows
+- if the limit of replacement k, exhausts. we shrink the window from left but we do not decrement the maxFrequency because we need the global maximum.
+
+Time Complexity - $O(n)$
