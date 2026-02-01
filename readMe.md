@@ -202,3 +202,12 @@ Time Complexity - $O(n)$
 - if the limit of replacement k, exhausts. we shrink the window from left but we do not decrement the maxFrequency because we need the global maximum.
 
 Time Complexity - $O(n)$
+
+
+### Question 4 - String Permutation 
+
+- Given two Strings, check if permutation of s1 exists in s2
+- Using sliding window and character frequency tracking, we return the answer, the concept is explained via [comments](/slidingWindow/question4/Permutation.java)
+
+
+Time Complexity - $O(m + n)$
