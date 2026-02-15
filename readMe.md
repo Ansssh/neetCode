@@ -211,3 +211,11 @@ Time Complexity - $O(n)$
 
 
 Time Complexity - $O(m + n)$
+
+### Question 5 - Minimum Window Substring
+
+- Given two Strings, return a substring that it contains all characters from second string, even duplicates.
+- using sliding window and two hashmaps, count the frequency of all the characters
+- Tricky part - The window retraction
+
+Time Complexity - $O(m + n)$
