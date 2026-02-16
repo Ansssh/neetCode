@@ -219,3 +219,10 @@ Time Complexity - $O(m + n)$
 - Tricky part - The window retraction
 
 Time Complexity - $O(m + n)$
+
+### Question 6 - Maximum Sliding Window
+
+- Given an array, return maximum element for every window of size k. 
+- Using a monotonic deque, maintaining the order from right end, and keeping the maximum from left end, removing only when the element goes out of window. -- Instead of storing values, store indexes to remove duplicacy
+
+> Sliding Window Completed!!
