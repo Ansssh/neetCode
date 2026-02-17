@@ -225,4 +225,16 @@ Time Complexity - $O(m + n)$
 - Given an array, return maximum element for every window of size k. 
 - Using a monotonic deque, maintaining the order from right end, and keeping the maximum from left end, removing only when the element goes out of window. -- Instead of storing values, store indexes to remove duplicacy
 
+Time Complexity - $O(n)$
+
 > Sliding Window Completed!!
+
+## Binary Search
+
+One of the foundational topics of Divide & Conquer
+
+### Question 1 - Binary Search
+
+- Given an array, find the index of target element.
+
+Time Complexity - $O(log(n))$
