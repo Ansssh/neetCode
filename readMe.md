@@ -258,3 +258,12 @@ Time Complexity - $O(log(m * n))$
 - In this question, we dont iterate over the given array. WE ITERATE OVER THE SOLUTION RANGE. Find the speeed. from 0 to max speed.
 
 Time Complexity - $O(n * log(m))$ - n for finding the max speed. and log(m) for finding the answer
+
+### Question 4 - Find Minimum in Rotated Sorted Array
+
+- Find the minimum element in a sorted but rotated array
+    - Use binary search to find the cut, where the array is rotated, and return the smaller element from the cut.
+- Edge case, No rotation is made, array is already sorted.
+
+Time Complexity - $O(log (n))$
+
