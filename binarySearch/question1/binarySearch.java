@@ -10,7 +10,7 @@ class Solution {
             }
             if (nums[n] < target) {
                 left = n + 1;
-            }else{
+            } else {
                 right = n;
             }
         }
@@ -18,10 +18,9 @@ class Solution {
     }
 }
 
-
-public class binarySearch {
+public class BinarySearch {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(x.search(new int[]{-1,0,3,5,9,12}, 9));
+        System.out.println(x.search(new int[] { -1, 0, 3, 5, 9, 12 }, 9));
     }
 }

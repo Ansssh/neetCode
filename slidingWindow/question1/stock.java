@@ -1,6 +1,5 @@
 package slidingWindow.question1;
 
-
 class Solution {
     public int maxProfit(int[] prices) {
         int l = 0, r = 1;
@@ -9,7 +8,7 @@ class Solution {
             if (prices[l] <= prices[r]) {
                 profit = Math.max(profit, prices[r] - prices[l]);
                 r++;
-            }else{
+            } else {
                 l = r;
                 r = r + 1;
             }
@@ -18,10 +17,9 @@ class Solution {
     }
 }
 
-
-public class stock {
+public class Stock {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(x.maxProfit(new int[]{10,8,7,5,2}));
+        System.out.println(x.maxProfit(new int[] { 10, 8, 7, 5, 2 }));
     }
 }

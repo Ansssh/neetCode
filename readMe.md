@@ -238,3 +238,15 @@ One of the foundational topics of Divide & Conquer
 - Given an array, find the index of target element.
 
 Time Complexity - $O(log(n))$
+
+### Question 2 - Matrix Search
+
+- Given a sorted matrix, Find whether an element exists or not
+
+Time Complexity - $O(m * log(n))$
+
+#### Question 2 - Matrix Search -- Updated
+
+- Given a sorted matrix, use divide and conquer to check whether the element lies in that range, if yes, then binary search over it, otherwise, return false;
+
+Time Complexity - $O(log(m * n))$

@@ -24,15 +24,13 @@ class Solution {
             }
             left++;
         }
-        return res;        
+        return res;
     }
 }
 
-
-public class maxSlidingWindow {
+public class MaxSlidingWindow {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(Arrays.toString(x.maxSlidingWindow(new int[]{9,1,2,3,4}, 3)));
+        System.out.println(Arrays.toString(x.maxSlidingWindow(new int[] { 9, 1, 2, 3, 4 }, 3)));
     }
 }
-

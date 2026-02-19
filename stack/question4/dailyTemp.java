@@ -10,8 +10,8 @@ class Solution {
         for (int i = 0; i < temperatures.length; i++) {
             if (x.isEmpty()) {
                 x.push(i);
-            }else{
-                while (!(x.isEmpty()) && temperatures[i] > temperatures[x.peek()] ) {
+            } else {
+                while (!(x.isEmpty()) && temperatures[i] > temperatures[x.peek()]) {
                     sol[x.peek()] = i - x.peek();
                     x.pop();
                 }
@@ -19,14 +19,13 @@ class Solution {
             }
 
         }
-        return sol;        
+        return sol;
     }
 }
 
-
-public class dailyTemp {
+public class DailyTemp {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(Arrays.toString(x.dailyTemperatures(new int[]{30,38,30,36,35,40,28})));
+        System.out.println(Arrays.toString(x.dailyTemperatures(new int[] { 30, 38, 30, 36, 35, 40, 28 })));
     }
 }

@@ -23,8 +23,7 @@ class Solution {
     }
 }
 
-
-public class longestSubstring {
+public class LongestSubstring {
     public static void main(String[] args) {
         Solution x = new Solution();
         System.out.println(x.lengthOfLongestSubstring("dvdf"));

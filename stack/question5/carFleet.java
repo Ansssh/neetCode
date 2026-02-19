@@ -20,7 +20,7 @@ class Solution {
             if (x.isEmpty()) {
                 currTop = time;
                 count++;
-            }else{
+            } else {
                 if (currTop < time) {
                     currTop = time;
                     count++;
@@ -32,9 +32,9 @@ class Solution {
     }
 }
 
-public class carFleet {
+public class CarFleet {
     public static void main(String[] args) {
         Solution x = new Solution();
-        System.out.println(x.carFleet(10, new int[]{0,4,2}, new int[]{2,1,3}));
+        System.out.println(x.carFleet(10, new int[] { 0, 4, 2 }, new int[] { 2, 1, 3 }));
     }
 }
