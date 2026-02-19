@@ -250,3 +250,11 @@ Time Complexity - $O(m * log(n))$
 - Given a sorted matrix, use divide and conquer to check whether the element lies in that range, if yes, then binary search over it, otherwise, return false;
 
 Time Complexity - $O(log(m * n))$
+
+### Question 3 - Koko Eats Banananana
+
+- Find the max speed, thats less than specified target, that koko can finish bananas in, bananas are given as a array of piles and koko can eat a pile in given hour.
+
+- In this question, we dont iterate over the given array. WE ITERATE OVER THE SOLUTION RANGE. Find the speeed. from 0 to max speed.
+
+Time Complexity - $O(n * log(m))$ - n for finding the max speed. and log(m) for finding the answer
