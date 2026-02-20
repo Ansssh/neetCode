@@ -267,3 +267,11 @@ Time Complexity - $O(n * log(m))$ - n for finding the max speed. and log(m) for 
 
 Time Complexity - $O(log (n))$
 
+### Question 5 - Search in Rotated Sorted Array
+
+- Find the given element in sorted but rotated array, 
+    - Find the cut and then find the element
+    - (Recommended) Do it all in one pass
+- Edge Case, Single element arrays
+
+Time Complexity - $O(log (n))$
