@@ -275,3 +275,12 @@ Time Complexity - $O(log (n))$
 - Edge Case, Single element arrays
 
 Time Complexity - $O(log (n))$
+
+### Question 6 - Time Based Key Value Store
+
+- Find the value corresponding to a key at a given timestamp
+- Using FloorEntry() method of treeSet to store the timestamps in increasing order, and return the EntrySet of Corresponding timeStamp.
+
+    - if not intended to use the Java treeSet and FloorEntry, Use a List of Pairs, (Pairs - a user implemented class that could store tuples). and then perform binary search over it.
+
+Time Complexity - $O(log (n))$
