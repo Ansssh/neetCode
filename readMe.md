@@ -233,6 +233,13 @@ Time Complexity - $O(n)$
 
 One of the foundational topics of Divide & Conquer
 
+| Feature | `while(l <= r)` | `while(l < r)` |
+| --- | --- | --- |
+| Goal | Find specific element | Finding boundary / edge |
+| Right Pointer | `n - 1` | `n` |
+| Termination | `l` passes `r` | `l` equals `r` |
+| Return Value | Target found / not found | `l` is the index of boundary |
+
 ### Question 1 - Binary Search
 
 - Given an array, find the index of target element.
@@ -284,3 +291,10 @@ Time Complexity - $O(log (n))$
     - if not intended to use the Java treeSet and FloorEntry, Use a List of Pairs, (Pairs - a user implemented class that could store tuples). and then perform binary search over it.
 
 Time Complexity - $O(log (n))$
+
+### Question 7 - Find Median of two sorted arrays
+
+- So, the approach is to find the partition of elements in both arrays that mark the middle point of combined array, and divide the arrays such that the left side is always heavier 
+
+Time Complexity - $O(log(min(m+n)))$
+
