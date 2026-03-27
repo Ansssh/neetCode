@@ -298,3 +298,32 @@ Time Complexity - $O(log (n))$
 
 Time Complexity - $O(log(min(m+n)))$
 
+> Binary Search Completed
+
+## Linked Lists
+
+```java
+class ListNode {
+    int val;
+    ListNode next;
+    public ListNode() {}
+    public ListNode(int val){
+        this.val = val;
+    }
+    public ListNode(int val, ListNode next){
+        this.val = val;
+        this.next = next;
+    }
+}
+```
+
+### Question 1 - Reverse a linked list
+
+- Create three nodes, `prev` `curr` & `temp`
+- `prev` to store the last processed node
+- `curr` to reverse the pointer 
+- `temp` to store the linkedList
+- When `curr` becomes null, `prev` stores the head to reversed List
+
+Time Complexity - $O(n)$
+
