@@ -30,7 +30,7 @@ class Solution {
     }
 }
 
-public class reverse {
+public class Reverse {
     public static void main(String[] args) {
         Solution x = new Solution();
         ListNode input = new ListNode(0, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))));

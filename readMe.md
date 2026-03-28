@@ -327,3 +327,9 @@ class ListNode {
 
 Time Complexity - $O(n)$
 
+### Question 2 - Merge 2 Lists
+
+- Make a result linked list and keep inserting the smaller element from the top of the list and keep advancing until both linkedLists are empty
+
+Time Complexity - $O(m+n)$
+
