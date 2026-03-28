@@ -333,3 +333,10 @@ Time Complexity - $O(n)$
 
 Time Complexity - $O(m+n)$
 
+### Question 3 - Has Cycle
+
+- Finding whether a cycle exists in a LinkedList or not, 
+- Use slow & fast pointer approach, make one pointer skip one node at a time, and another skip two at a time, if a cycle exists, they will eventually meet otherwise end at null;
+- Since LinkedList is passed by reference, duplicate data doesnt matter
+
+Time Complexity - $O(n)$
