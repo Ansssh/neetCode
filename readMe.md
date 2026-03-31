@@ -340,3 +340,12 @@ Time Complexity - $O(m+n)$
 - Since LinkedList is passed by reference, duplicate data doesnt matter
 
 Time Complexity - $O(n)$
+
+### Question 4 - Reorder List
+
+- Given a LinkedList, transform the list into 1 -> n -> 2 -> n-1... and so on
+- Step 1 - Find the mid of List and break the list into two
+- Step 2 - Reverse the second part
+- Step 3 - Insert the elements from reversed list into alternate positions of the first list
+
+Time Complexity - $O(n)$
