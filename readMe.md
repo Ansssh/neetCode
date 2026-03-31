@@ -349,3 +349,11 @@ Time Complexity - $O(n)$
 - Step 3 - Insert the elements from reversed list into alternate positions of the first list
 
 Time Complexity - $O(n)$
+
+### Question 5 - Remove from List End
+
+- Given a LinkedList and a number n, remove the nth element from list,
+- Use two pointers, n nodes apart, when the fast one reaches the end, the slow one would be on the position where the element is to be deleted.
+- Then just skip the pointers
+
+Time Complexity - $O(n)$
