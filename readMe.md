@@ -364,3 +364,10 @@ Time Complexity - $O(n)$
 - Store the Reference and Copy Node in HashMap, and when iterating again, populate the random attribute
 
 Time Complexity - $O(n)$
+
+### Question 7 - Add Two Numbers
+
+- Given two LinkedLists, with each node having single digit as value, add the linkedLists and return the head of result
+- Make a New LinkedList, keep adding the values from both the LinkedLists and maintain a carry variable
+
+Time Complexity - $O(m+n)$
