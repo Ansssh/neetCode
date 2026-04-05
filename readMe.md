@@ -357,3 +357,10 @@ Time Complexity - $O(n)$
 - Then just skip the pointers
 
 Time Complexity - $O(n)$
+
+### Question 6 - Copy Random List
+
+- Given a custom LinkedList with a random attribute that points to a random node in LinkedList, Make a deep Copy of the list
+- Store the Reference and Copy Node in HashMap, and when iterating again, populate the random attribute
+
+Time Complexity - $O(n)$
