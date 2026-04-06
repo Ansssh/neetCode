@@ -378,3 +378,8 @@ Time Complexity - $O(m+n)$
 - Use the input array as the checker, as the element lies in 1 to n, we can check if element is encountered or not using its index place, where we can mark the element as negative to mark that the number is seen, while traversing, if the number is encountered negative, it means it is seen before. Return it!
 
 Time Complexity - $O(n)$
+
+### Question 9 - LRU Cache
+
+- Implement a LRU Cache (Least Recently Used), where we need to store elements in a given capacity and remove the least recently used when new element arrives after capacity is full
+- Using a doubly Linked List, we can Insert at head and remove at tail and keep track of nodes using hashmap
