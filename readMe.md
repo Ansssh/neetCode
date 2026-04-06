@@ -371,3 +371,10 @@ Time Complexity - $O(n)$
 - Make a New LinkedList, keep adding the values from both the LinkedLists and maintain a carry variable
 
 Time Complexity - $O(m+n)$
+
+### Question 8 - Find Duplicates
+
+- Given an array of length n and every element of array lies in range of 1 to n, only one element repeats, Find it!
+- Use the input array as the checker, as the element lies in 1 to n, we can check if element is encountered or not using its index place, where we can mark the element as negative to mark that the number is seen, while traversing, if the number is encountered negative, it means it is seen before. Return it!
+
+Time Complexity - $O(n)$
