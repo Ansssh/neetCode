@@ -398,3 +398,21 @@ Time Complexity - $O(k * n)$ where n is the length of longest List
 - Iterate the list for K number of nodes, break the pointer and store the rest of List, reverse those K nodes, store it in another list and keep repeating until the input list becomes null
 
 Time Complexity - $O(n * k)$
+
+## Trees
+
+```java
+// Binary Tree
+public class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+```
