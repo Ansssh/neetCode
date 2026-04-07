@@ -391,3 +391,10 @@ Time Complexity - $O(n)$
 - Make a `res` List and keep merging every list one by one
 
 Time Complexity - $O(k * n)$ where n is the length of longest List
+
+### Question 11 - Reverse K Groups
+
+- Given a LinkedList, reverse the groups of Length K
+- Iterate the list for K number of nodes, break the pointer and store the rest of List, reverse those K nodes, store it in another list and keep repeating until the input list becomes null
+
+Time Complexity - $O(n * k)$
