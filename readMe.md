@@ -383,3 +383,11 @@ Time Complexity - $O(n)$
 
 - Implement a LRU Cache (Least Recently Used), where we need to store elements in a given capacity and remove the least recently used when new element arrives after capacity is full
 - Using a doubly Linked List, we can Insert at head and remove at tail and keep track of nodes using hashmap
+
+
+### Question 10 - Merge K Lists
+
+- Given K sorted LinkedLists, Merge them all!
+- Make a `res` List and keep merging every list one by one
+
+Time Complexity - $O(k * n)$ where n is the length of longest List
