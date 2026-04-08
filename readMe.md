@@ -422,3 +422,9 @@ public class TreeNode {
 - Write a recursive function to invert a binary tree, swap its pointers and pass the left and right node until leaf node is reached
 
 Time Complexity - $O(n)$
+
+### Question 2 - Depth of Tree
+
+- Write a helper function to maintain count alongside dfs traversal
+
+Time Complexity - $O(n)$
