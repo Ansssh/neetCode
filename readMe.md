@@ -416,3 +416,9 @@ public class TreeNode {
     }
 }
 ```
+
+### Question 1 - Invert Tree
+
+- Write a recursive function to invert a binary tree, swap its pointers and pass the left and right node until leaf node is reached
+
+Time Complexity - $O(n)$
