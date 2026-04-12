@@ -428,3 +428,9 @@ Time Complexity - $O(n)$
 - Write a helper function to maintain count alongside dfs traversal
 
 Time Complexity - $O(n)$
+
+### Question 3 - Diameter of Tree
+
+- Maximum distance between two nodes, it can be calculated by adding height of left and right subtree of every node
+
+Time Complexity - $O(n)$
