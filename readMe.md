@@ -440,3 +440,9 @@ Time Complexity - $O(n)$
 - Check if difference of heights of left and right subtree of a binary tree is not more than 1
 
 Time Complexity - $O(n)$
+
+### Question 5 - Same Binary Tree
+
+- Check if Two Binary Trees are same in structure and value
+
+Time Complexity - $O(n)$
