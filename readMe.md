@@ -434,3 +434,9 @@ Time Complexity - $O(n)$
 - Maximum distance between two nodes, it can be calculated by adding height of left and right subtree of every node
 
 Time Complexity - $O(n)$
+
+### Question 4 - Balanced Binary Tree
+
+- Check if difference of heights of left and right subtree of a binary tree is not more than 1
+
+Time Complexity - $O(n)$
