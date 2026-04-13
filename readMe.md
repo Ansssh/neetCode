@@ -466,3 +466,10 @@ Time Complexity - $O(h)$
 - Traverse the tree in levels, USE BFS
 
 Time Complexity - $O(n)$
+
+### Question 9 - Right Side View
+
+- Given a tree, return a list of all nodes which are visible from right side,
+- Begin a bfs traversal, and add the last node of queue into the list
+
+Time Complexity - $O(n)$
