@@ -446,3 +446,10 @@ Time Complexity - $O(n)$
 - Check if Two Binary Trees are same in structure and value
 
 Time Complexity - $O(n)$
+
+### Question 6 - Subtree of another Tree
+
+- Check if a given tree is subTree of another Tree, 
+- for each node value equals to the value of root of given tree, check if both trees are equal at that node or not
+
+Time Complexity - $O(m * n)$
