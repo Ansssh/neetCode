@@ -453,3 +453,10 @@ Time Complexity - $O(n)$
 - for each node value equals to the value of root of given tree, check if both trees are equal at that node or not
 
 Time Complexity - $O(m * n)$
+
+### Question 7 - Lowest Common Ancestor
+
+- Return the node which is common ancestor of two given nodes in a Binary Search Tree,
+- Traverse the tree, if one node lies in left and other in right, the given node is ancestor otherwise traverse the tree down.
+
+Time Complexity - $O(h)$
