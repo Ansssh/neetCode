@@ -460,3 +460,9 @@ Time Complexity - $O(m * n)$
 - Traverse the tree, if one node lies in left and other in right, the given node is ancestor otherwise traverse the tree down.
 
 Time Complexity - $O(h)$
+
+### Question 8 - Level Order
+
+- Traverse the tree in levels, USE BFS
+
+Time Complexity - $O(n)$
