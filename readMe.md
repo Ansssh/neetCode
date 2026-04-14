@@ -473,3 +473,9 @@ Time Complexity - $O(n)$
 - Begin a bfs traversal, and add the last node of queue into the list
 
 Time Complexity - $O(n)$
+
+### Question 10 - Good Nodes 
+
+- Given a tree, while doing dfs traversal, return the count of nodes in increasing order of value in traversal
+
+Time Complexity - $O(n)$
