@@ -479,3 +479,10 @@ Time Complexity - $O(n)$
 - Given a tree, while doing dfs traversal, return the count of nodes in increasing order of value in traversal
 
 Time Complexity - $O(n)$
+
+### Question 11 - Valid Binary Search Tree
+
+- Given a tree, check if its a valid binary search tree
+- While dfs, we introduce an interval and check if the value of node, lies between the interval and keep updating the interval after traversal
+
+Time Complexity - $o(n)$
